@@ -1,0 +1,27 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+
+int main()
+{
+double kmm=1000.0;
+double mcm=100.0;
+double cmft=0.328084;
+double ftin=12;
+double km;
+
+cout<<"entar a value of km =";
+cin>>km;
+
+double m=km*kmm;
+double cm=m*mcm;
+double ft=cm*cmft;
+double in=ft*ftin;
+
+cout<<setprecision(2)<<fixed;
+cout<<setw(17)<<left<<"total m = "<< setw(5)<< right <<m<<endl;
+cout<<setw(17)<<left<<"total cm = "<< setw(5)<< right <<cm<<endl;
+cout<<setw(17)<<left<<"total ft = "<< setw(5)<< right <<ft<<endl;
+cout<<setw(17)<<left<<"total in = "<< setw(5)<< right <<in<<endl;
+    return 0;
+}
