@@ -1,0 +1,28 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int i,j;
+   void sort(int &n,int &m)
+   {
+    if(i>j){
+        int temp =i;
+        i=j;
+        j=temp;
+    }
+   }
+
+int main()
+{
+  cout<<"entar a value i= ";
+  cin>>i;
+
+  cout<<"entar a value j=";
+  cin>>j;
+
+  sort(i,j);
+  cout<<"i ="<<i<<endl;
+  cout<<"j ="<<j<<endl;
+  
+
+return 0;
+}
