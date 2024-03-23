@@ -1,0 +1,34 @@
+#include<iostream>
+
+using namespace std;
+
+class converter{
+    public:
+    double totalcm;
+   
+   double totalcmToinch(double totalcm){
+       return totalcm*0.393701;
+   }
+   double totalcmTofeet(double totalcm){
+       return totalcm*0.0328084;
+   }
+   double totalcmTometer(double totalcm){
+       return totalcm*0.01;
+   }
+   double totalcmTokilmeter(double totalcm){
+       return totalcm*0.00001;
+   }
+};
+
+int main()
+{
+      converter e1;
+      
+      cout<<"Enter a value of total = ";
+      cin>>e1.totalcm;
+        cout<<"total value To Inch = "<<e1.totalcmToinch(e1.totalcm)<<endl;
+        cout<<"total value To Feet = "<<e1.totalcmTofeet(e1.totalcm)<<endl;
+        cout<<"total value To Meter = "<<e1.totalcmTometer(e1.totalcm)<<endl;
+        cout<<"total value To Kilometer = "<<e1.totalcmTokilmeter(e1.totalcm)<<endl;
+        return 0;
+}
