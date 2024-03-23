@@ -1,0 +1,27 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+
+int main(){
+       int a;
+       int b;
+       int c;
+
+       cout<<"entar a value of a =";
+       cin>>a;
+
+       cout<<"entar a value of b =";
+       cin>>b;
+
+       cout<<"entar a value of c =";
+       cin>>c;
+
+      if(a>b && a>c){
+         cout<<"the a is max"<<endl;
+      }else if(b>a && b>c){
+         cout<<"the b is mex"<<endl;
+      }else if(c>a && c>b)
+      cout<<"the c is mex"<<endl;
+
+    return 0;
+}
