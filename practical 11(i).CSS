@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+}
+
+header{
+    background-color: rgb(246, 246, 246);
+    border: solid black;
+    padding: 20px;
+    position: relative;
+    left: 100px;
+    
+
+}
+
+#a{
+    color: rgba(234, 48, 48, 0.667);
+    border: solid black;
+    padding: 5px;
+}
+
+#b{
+    color: rgba(200, 0, 0, 0.667);
+    text-decoration:underline black;
+}
+
+#c{
+    color: rgba(0, 0, 0, 0.667);
+   
+}
+
+
+#d{
+    color: rgba(217, 248, 255, 0.667);
+    background-color: beige;
+   
+}
+#e{
+    color: rgba(217, 248, 255, 0.667);
+    background-color: beige;
+   
+   
+}
+#f{
+    color: rgba(217, 248, 255, 0.667);
+    background-color: beige;
+   
+   
+}
+#g{
+    color: rgba(217, 248, 255, 0.667);
+    background-color: beige;
+   
+   
+}
+#h{
+    color: rgba(217, 248, 255, 0.667);
+    background-color: beige;
+   
+   
+}
+#i{
+    color: rgba(36, 190, 225, 0.667);
+    background-color: rgb(255, 255, 71);
+   
+   
+}
+
+#z{
+    color: rgba(0, 0, 0, 0.667);
+    background-color: rgb(255, 121, 11);
+    
+   
+   
+}
